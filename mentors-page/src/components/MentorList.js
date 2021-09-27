@@ -1,10 +1,10 @@
 import Mentor from "./Mentor";
 import './styles.css';
 
-const MentorList = (props) => {
+const MentorList = ({ mentors }) => {
     return (
         <div className="mentor_list">
-            {Array.from(props.mentors).map((mentor, index) => (
+            {Array.from(mentors).map((mentor, index) => (
                 <Mentor 
                     key={index}
                     firstName={mentor.firstName} 

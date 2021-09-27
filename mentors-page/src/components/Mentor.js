@@ -2,7 +2,7 @@ import './styles.css';
 import COOKIE from '../assets/cookie.png'
 
 
-const Mentor = ({firstName, lastName, description, imgURL}) => {
+const Mentor = ({ firstName, lastName, description, imgURL }) => {
     return (
         <div className="mentor">
             <div className="profile_picture">

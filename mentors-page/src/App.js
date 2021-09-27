@@ -39,13 +39,13 @@ function App() {
         <img src={RIGHT_MITT} alt='right oven mitt' className="right_mitt"/>
         <img src={TABLE} alt='table with mixing bowl' className="table"/>
       </div>
-        <img src={LOGO} alt='HackIllinois 2022 Logo' className="logo"/>
-        <h1 className="title">
-          MENTORS
-        </h1>
-        <div className="container">
-          <MentorList mentors={mentors} />
-        </div>
+      <img src={LOGO} alt='HackIllinois 2022 Logo' className="logo"/>
+      <h1 className="title">
+        MENTORS
+      </h1>
+      <div className="container">
+        <MentorList mentors={mentors} />
+      </div>
     </div>
   );
 }
